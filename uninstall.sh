@@ -14,13 +14,13 @@ else
   THEME_DIR="$HOME/.local/share/icons"
 fi
 
-# Remove the Nordzy-icons file without removing potential Nordzy-cursors files
+# Remove the Shopno-icons file without removing potential Nordzy-cursors files
 remove_icons() {
 for folder in ${THEME_DIR}/*
 do
   if [[ ${folder} =~ Nordzy-cursors* ]]; then
     :
-  elif [[ ${folder} =~ Nordzy* ]];then
+  elif [[ ${folder} =~ Shopno* ]];then
     rm -rf ${folder}
   fi
 done

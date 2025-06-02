@@ -1,8 +1,8 @@
- Nordzy Icon Theme
+ Shopno Icon Theme
 ======
 
 > [!NOTE]
-> This project was previously under the ownership of [@alvatip](https://github.com/alvatip), before retiring, and transferring the repository to me.
+> This project is forked from [Nordzy Icon Theme](https://github.com/MolassessLover/Nordzy-icon) under the ownership of [@molassess](https://github.com/MolassessLover).
 > The document below is a verbatim copy of what they had written under their ownership.
 
 <p align="center">
@@ -11,13 +11,12 @@
 
 </p>
 
-Nordzy is a free and open source  icon theme for Linux desktops using the [Nord](https://github.com/arcticicestudio/nord) color palette from [Arctic Ice Studio](https://github.com/arcticicestudio) and based on [WhiteSur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme) and [Numix Icon Theme](https://github.com/numixproject/numix-icon-theme)<br/>
- I’ll take requests for which app icons I should put in next. If I get no requests, I take (almost) randomly from the long list of apps.
+Shopno Icon Theme is based on Nordzy which is a free and open source  icon theme for Linux desktops using the [Nord](https://github.com/arcticicestudio/nord) color palette from [Arctic Ice Studio](https://github.com/arcticicestudio) and based on [WhiteSur Icon Theme](https://github.com/vinceliuice/WhiteSur-icon-theme) and [Numix Icon Theme](https://github.com/numixproject/numix-icon-theme)<br/>
 Dark variants are more appropriate for dark desktop environments, while the normal variants are more appropriate for light desktop environments. <br/> If you are using a dark theme with a light panel (or the opposite) you can specify the panel argument which make the panel's color opposite.
 
 ## Table of contents
 
-- [Nordzy Icon Theme](#nordzy-icon-theme)
+- [ShopnoOS Icon Theme](#nordzy-icon-theme)
   - [Table of contents](#table-of-contents)
   - [Preview](#preview)
   - [Installation](#installation)
@@ -44,11 +43,11 @@ Dark variants are more appropriate for dark desktop environments, while the norm
 
 To install the icon theme, first clone this repository
 ```
-git clone https://github.com/alvatip/Nordzy-icon
+git clone https://github.com/JaduPC/shopno-icon
 ```
 Then go inside it
 ```
-cd Nordzy-icon/
+cd shopno-icon/
 ```
 and use the installer script (with or without arguments). </br>
 For a local installation: 
@@ -110,15 +109,6 @@ If you are using [AppImageLauncher](https://github.com/TheAssassin/AppImageLaunc
 ```
 python -m AppImageIcon
 ```
-
-## Icon request
-
-When submitting an icon request, please give the following information: <br/>
-* Application name
-* Icon name if you know it
-* Original icon image
-* Use tray? Tray icon name (again, if you know it).
-* Small description and/or a link to the official webpage.
 
 ## Contributing
 

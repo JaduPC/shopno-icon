@@ -13,7 +13,7 @@ fi
 
 SRC_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-THEME_NAME=Nordzy
+THEME_NAME=Shopno
 COLOR_VARIANTS=('' '-dark')
 THEME_VARIANTS=('' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-turquoise' '-cyan')
 hex_white='#d8dee9'
@@ -22,7 +22,7 @@ update_cache='TRUE'
 
 # Display ascii art
 ascii_art() {
-  cat < nordzy-ascii-art.txt
+  cat < shopno-ascii-art.txt
   sleep 0.5
 }
 
@@ -37,7 +37,7 @@ error_msg(){
 # Show help
 usage() {
 cat << EOF
-$0 helps you install Nordzy-icon theme on your computer.
+$0 helps you install Shopno icon theme on your computer.
 
 Usage: $0 [OPTION]...
 
